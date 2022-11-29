@@ -54,8 +54,16 @@
   height: auto;
   margin: 50px 0 0 0px;
 }
+.smallbox img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.bigbox img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 
-.smallbox .img2 {
+.img2 {
   width: auto;
   height: auto;
   margin: 20px 0 0 0;
@@ -172,6 +180,10 @@
 
 .salebox img {
   margin: 25px 0 0 -5px;
+}
+.salebox img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .saletext,
