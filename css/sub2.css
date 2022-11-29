@@ -1,0 +1,94 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#member_1 {
+  width: 1191px;
+  height: 670px;
+  background-color: red;
+  margin: 0 auto;
+  position: relative;
+}
+#boxbox {
+  width: 500px;
+  height: 460px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-220px, -245px);
+  background-color: rgba(255, 255, 255,0.8);
+  border-radius: 15px;
+  z-index: 2;
+}
+#hi {
+  text-align: center;
+}
+.id_pass {
+  text-align: left;
+  margin-left: 100px;
+}
+.Erase {
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid;
+  background: transparent;
+}
+.find {
+  width: 480px;
+  display: flex;
+  justify-content: space-around;
+}
+.find a {
+  text-decoration: none;
+  color: black;
+  text-align: right;
+}
+.find1 > a:hover {
+  color: red;
+}
+.find > img {
+  height: 15px;
+  margin-left: 25px;
+}
+.find1 {
+  font-size: 9pt;
+}
+.loginbutton {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin: 10px 0 0 100px;
+}
+.loginbutton > a {
+  color: white;
+  text-decoration: none;
+}
+.sign_text {
+  margin: 10px 0 0 100px;
+  font-size: 10pt;
+  text-align: left;
+}
+.loginbutton2 {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  background-color: white;
+  margin: 10px 0 10px 0px;
+}
+.loginbutton2 > a {
+  color: black;
+  text-decoration: none;
+}
+.cat_video {
+  position: absolute;
+  min-width: 100%;
+  z-index: 1;
+}

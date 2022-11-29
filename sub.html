@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bandal Cat</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sub1.css">
+    <link rel="stylesheet" href="css/sub2.css">
+    <link rel="shortcut icon" href="Portfolio_1/logo/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="Portfolio_1/logo/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $("#sliderbox li:first-child").click(function () {
+
+                $("#sale_img").attr("src", "Portfolio_1/sub_page_img/sand_1.jpg");
+
+            });
+
+            $("#sliderbox li:nth-child(2)").click(function () {
+
+                $("#sale_img").attr("src", "Portfolio_1/sub_page_img/sand_2.jpg");
+
+            });
+            $("#sliderbox li:nth-child(3)").click(function () {
+
+                $("#sale_img").attr("src", "Portfolio_1/sub_page_img/sand_3.jpg");
+
+            });
+            $("#sliderbox li:nth-child(4)").click(function () {
+
+                $("#sale_img").attr("src", "Portfolio_1/sub_page_img/sand_4.jpg");
+
+            });
+            // 사이드 이미지 클릭 시 sale이미지(큰사진)의 src를
+            // 해당이미지로 변경하여 보여지게하는 코드
+
+            $(".aaa").click(function () {
+                $(".aaa").css("border", "none");
+                $(this).css("border", "3px solid lightgray");
+            });
+            // 이미지 클릭 시 테두리 추가 코드
+
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div id="toplogin">
+            <p>
+                <a href="sub2.html">로그인</a> | <a href="sub2.html">회원가입</a> |
+                <a href="#">고객센터</a>
+            </p>
+        </div>
+        <a href="index.html">
+            <img src="Portfolio_1/logo/title.png" alt="logo" id="logo"></a>
+        <input type="search" id="inputsearch" placeholder="상품명을 검색하세요.">
+        <img src="Portfolio_1/icon/Magnifier.png" alt="돋보기" id="Search_img">
+        <div class="my">
+            <a href="sub2.html"><b>마이페이지</b>
+                <img src="Portfolio_1/icon/mypage.png" alt="mypage" class="mypage_img"></a>
+        </div>
+        <div class="basket"><a href="#"><b>장바구니</b>
+                <img src="Portfolio_1/icon/basket.png" alt="basket" class="basket_img"></a></div>
+    </header>
+    <div id="icon_box">
+        <div class="iconbox">
+            <a href="#"><img src="Portfolio_1/icon/food2.png" alt="food"><span>음식</span></a>
+        </div>
+        <div class="iconbox">
+            <a href="#"><img src="Portfolio_1/icon/Snack.png" alt="Snack"><span>과자</span></a>
+        </div>
+        <div class="iconbox">
+            <a href="#"><img src="Portfolio_1/icon/cat.png" alt="캣닢"><span>캣닢</span>
+            </a>
+        </div>
+        <div class="iconbox">
+            <a href="#"><img src="Portfolio_1/icon/canicon.png" alt="캔간식"><span>캔간식</span>
+            </a>
+        </div>
+        <div class="iconbox">
+            <a href="#"><img src="Portfolio_1/icon/cure.png" alt="약"><span>건강</span>
+            </a>
+        </div>
+        <div class="iconbox">
+            <a href="#"><img src="Portfolio_1/icon/Shampoo.png" alt="미용"><span>미용
+                </span></a>
+        </div>
+        <div class="iconbox">
+            <a href=""><img src="Portfolio_1/icon/sand2.png" alt="모래"><span>모래</span></a>
+        </div>
+    </div>
+    <!-- 슬라이드 배너 -->
+    <div id="sub_section1">
+        <div class="menu_href">
+            <div>
+                <span><a href="index.html"><img src="Portfolio_1/icon/home_icon.png" alt="home"></a></span>
+                <span><a href="#">BEST</a></span>>
+                <span><a href="#">전체상품</a></span>
+            </div>
+        </div>
+        <div id="ads2">
+            <a href="#ads2">상품설명</a>
+            <a href="#ads3">배송안내</a>
+            <a href="#ads">리뷰</a>
+            <a href="#ads4">Q&amp;A</a>
+        </div>
+        <div class="menu_href2">
+            <div id="salepage">
+                <div id="sliderbox">
+                    <ul>
+                        <li><img src="Portfolio_1/sub_page_img/sand_1.jpg" onclick="" class="aaa" alt="스크래쳐1"></li>
+                        <li><img src="Portfolio_1/sub_page_img/sand_2.jpg" class="aaa" alt="스크래쳐2"></li>
+                        <li><img src="Portfolio_1/sub_page_img/sand_3.jpg" class="aaa" alt="스크래쳐3"></li>
+                        <li><img src="Portfolio_1/sub_page_img/sand_4.jpg" class="aaa" alt="스크래쳐4"></li>
+                    </ul>
+                </div>
+                <div id="salebox">
+                    <img src="Portfolio_1/sub_page_img/sand_1.jpg" id="sale_img" alt="스크래쳐">
+                    <div id="mainsale_text">
+                        <span>고양이 전용 박스에 스크래쳐가 결합된 제품으로 박스를 좋아하는<br>
+                            박스냥들을 위해 제작되었습니다 ^^<br>
+                            박스에 함께 들어있는 스크래쳐는 두께 3cm로 튼튼하여 오래 사용가능합니다.<br>
+                            스크레쳐가 시간이 지나 손상이 커지면 리필용 스크래쳐를<br>
+                            구매하셔서 교체하시면 됩니다.
+                        </span>
+                        <img src="Portfolio_1/sub_page_img/product_box.jpg" id="sale_img2" alt="">
+                    </div>
+                </div>
+                <div id="moneybox">
+                    <div class="moneytext"><span>[데코퐁]</span>
+                        <h3>데코퐁 고양이 스크래쳐</h3>
+                        <table>
+                            <tr>
+                                <th>판매가</th>
+                                <td>6,900원</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <th>종류</th>
+                                <td><select name="option">
+                                        <option value="필수">-[필수]옵션을 선택해주세요</option>
+                                        <option value="절취선">-------------------
+                                        </option>
+                                        <optgroup label="선택">
+                                            <option value="사쿠라">01. 사쿠라 박스 [품절] </option>
+                                            <option value="한라봉">02. 한라봉 박스 [품절] </option>
+                                            <option value="크리스마스">03. 크리스마스 박스</option>
+                                        </optgroup>
+                                    </select></td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <th>수량</th>
+                                <td><select name="option">
+                                        <option value="필수">-[필수]옵션을 선택해주세요</option>
+                                        <option value="절취선">-------------------
+                                        </option>
+                                        <optgroup label="선택">
+                                            <option value="n개">1개 </option>
+                                            <option value="n개">2개 </option>
+                                        </optgroup>
+                                    </select></td>
+                            </tr>
+                        </table>
+                        <div id="payclick">
+                            <p>평일 택배발송 마감시간은 오후 2시입니다.<br> 이후 시간의 주문은 다음 영업일 일찍 발송해 드릴게요!</p><br>
+                            <button class="aa1"><span>구매하기</span></button>
+                            <button class="aa2"><span>장바구니</span></button>
+                            <button class="aa2"><span>관심상품</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 여기까지 상품내용 및 이미지 오른쪽 스티키 상품구매  -->
+    <div id="ads3">
+        <a href="#ads2">상품설명</a>
+        <a href="#ads3">배송안내</a>
+        <a href="#ads">리뷰</a>
+        <a href="#ads4">Q&amp;A</a>
+    </div><br><br><br>
+    <div id="delivery">
+        <div class="delivery_line">
+            <p>배송 안내</p>
+        </div>
+        <table class="tablebox3">
+            <tr>
+                <th>
+                    교환/반품 신청
+                </th>
+                <td>
+                    마이페이지 - 주문/배송조회 화면에서 가능합니다.<br>
+                    <a href="sub2.html" class="del_service">[교환/반품 신청하러가기]</a>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    교환/반품 기간
+                </th>
+                <td>
+                    단순변심 등 구매자 귀책인 경우 상품 수령 후 7일 이내만 가능합니다.<br>
+                    불량, 오배송 등 당사 귀책으로 인한 과실 발생 시 수령 후 3개월 이내 (발견시점부터 30일 이내) 가능합니다.
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    배송/배송기간
+                </th>
+                <td>
+                    <ul>
+                        <li>업체에서 배송하는 상품으로 평균 2~3일 배송기간이 소요됩니다. (주말/공휴일 제외)</li>
+                        <li>배송비 : 무료</li>
+                        <li>입점사에서 배송하는 상품입니다.</li>
+                        <li>일부 도서/산간 지역에는 배송비가 추가될 수 있습니다.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <section id="sub_section2">
+        <div id="ads">
+            <a href="#ads2">상품설명</a>
+            <a href="#ads3">배송안내</a>
+            <a href="#ads">리뷰</a>
+            <a href="#ads4">Q&amp;A</a>
+        </div>
+        <h1 id="review_go">리뷰</h1>
+        <div class="New">New</div>
+        <div class="rieview_box">
+            <table class="tablebox">
+                <tr>
+                    <th class="tabletitle">상품정보</th>
+                    <th class="tabletitle">카테고리</th>
+                    <th class="tabletitle">제목</th>
+                    <th class="tabletitle">작성자</th>
+                    <th class="tabletitle">작성일</th>
+                </tr>
+                <tr>
+                    <td class="tablecontent"><img src="Portfolio_1/img/sale/cat_catnip.png" alt="상품이미지"></td>
+                    <td class="tablecontent">캣닢</td>
+                    <td class="tablecontent">역시 고양이 최애템</td>
+                    <td class="tablecontent">고양이</td>
+                    <td class="tablecontent">2022-11-24</td>
+                </tr>
+                <tr>
+                    <td class="tablecontent"><img src="Portfolio_1/img/sale/sampoo.png" alt="상품이미지"></td>
+                    <td class="tablecontent">미용</td>
+                    <td class="tablecontent">너무좋아요</td>
+                    <td class="tablecontent">스퐁지밥</td>
+                    <td class="tablecontent">2022-11-23</td>
+                </tr>
+                <tr>
+                    <td class="tablecontent"><img src="Portfolio_1/img/Weekly/cat_sand.png" alt="상품이미지"></td>
+                    <td class="tablecontent">모래</td>
+                    <td class="tablecontent">잘뭉치고 전체적으로 만족스러워요! </td>
+                    <td class="tablecontent">해파리</td>
+                    <td class="tablecontent">2022-11-23</td>
+                </tr>
+                <tr>
+                    <td class="tablecontent"><img src="Portfolio_1/img/Weekly/Snacks.png" alt="상품이미지"></td>
+                    <td class="tablecontent">음식</td>
+                    <td class="tablecontent">벌써 다먹어버렸습니다.</td>
+                    <td class="tablecontent">뚱이</td>
+                    <td class="tablecontent">2022-11-20</td>
+                </tr>
+                <tr>
+                    <td class="tablecontent"><img src="Portfolio_1/img/sale/cat_medicine.png" alt="상품이미지"></td>
+                    <td class="tablecontent">건강</td>
+                    <td class="tablecontent">고양이 영양제 먹이기힘들다.</td>
+                    <td class="tablecontent">다람이</td>
+                    <td class="tablecontent">2022-11-19</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <button class="rewiewbutton1">1</button>
+            <button class="rewiewbutton" onclick="alert('다음 페이지가 없습니다.')">2</button>
+        </div>
+    </section>
+    <section id="sub_section3">
+        <div id="ads4">
+            <a href="#ads2">상품설명</a>
+            <a href="#ads3">배송안내</a>
+            <a href="#ads">리뷰</a>
+            <a href="#ads4">Q&amp;A</a>
+        </div>
+        <h1 id="review_go2">Q&amp;A</h1>
+        <div class="rieview_box2">
+            <table class="tablebox2">
+                <tr>
+                    <th class="tabletitle">상품정보</th>
+                    <th class="tabletitle">카테고리</th>
+                    <th class="tabletitle">제목</th>
+                    <th class="tabletitle">작성자</th>
+                    <th class="tabletitle">작성일</th>
+                </tr>
+                <tr>
+                    <td class="tablecontent"><img src="Portfolio_1/img/sale/cat_catnip.png" alt="상품이미지"></td>
+                    <td class="tablecontent">캣닢</td>
+                    <td class="tablecontent">이런경우 어떻게하나요?</td>
+                    <td class="tablecontent">고양이</td>
+                    <td class="tablecontent">2022-11-24</td>
+                </tr>
+                <tr>
+                    <td class="tablecontent"><img src="Portfolio_1/img/sale/sampoo.png" alt="상품이미지"></td>
+                    <td class="tablecontent">미용</td>
+                    <td class="tablecontent">배송얼마나걸리나요?</td>
+                    <td class="tablecontent">정말급햄찌</td>
+                    <td class="tablecontent">2022-11-23</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <button class="rewiewbutton3">1</button>
+            <button class="rewiewbutton4" onclick="alert('다음 페이지가 없습니다.')">2</button>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer_sub">
+            <div class="footer_content">
+                <h3>고객지원센터 TEL 070-1234-1234</h3>
+                <p>평일 오전 10시부터 오후 7시까지 / 점심시간 12시부터 1시까지<br>
+                    토요일 오전 10시부터 오후 3시까지 / 일요일 휴무</p>
+                <br>
+                <h3>반품 배송지</h3>
+                <p>경기도 안산시 단원구 중앙대로 915 반달 캣스토어</p>
+            </div>
+            <div><img src="Portfolio_1/logo/footer_logo.png" alt="">
+                <h3 class="logotext">Bandal Cat Store</h3>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

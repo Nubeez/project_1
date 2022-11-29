@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+#section1 {
+  width: 1191px;
+  height: 1104px;
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 3px solid gray;
+}
+
+.title0 {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+.Subhead {
+  text-align: center;
+  padding-top: 5px;
+  font-weight: bold;
+  color: rgb(151, 151, 151);
+}
+
+#section1 .bigbox,
+#section1 .smallbox {
+  border: 2px solid gray;
+  border-radius: 20px;
+  float: left;
+  margin: 30px 0 0 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bigbox {
+  width: 563px;
+  height: 400px;
+}
+
+.bigbox img {
+  width: 230px;
+  height: 230px;
+  margin: 40px 0 0 0px;
+}
+
+.smallbox {
+  width: 270px;
+  height: 400px;
+}
+
+.smallbox img {
+  width: auto;
+  height: auto;
+  margin: 50px 0 0 0px;
+}
+
+.smallbox .img2 {
+  width: auto;
+  height: auto;
+  margin: 20px 0 0 0;
+}
+
+.lowtitle {
+  width: 570px;
+  height: 100px;
+  background-color: rgb(235, 212, 182);
+  text-align: left;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.lowtitle2 {
+  width: 280px;
+  height: 100px;
+  background-color: rgb(235, 212, 182);
+  text-align: left;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.Pricetitle,
+.Pricetitle2,
+.Pricetitle3 {
+  display: inline-block;
+  font-weight: bold;
+}
+.Pricetitle {
+  margin: 13px 0 0 120px;
+}
+
+.Pricetitle2 {
+  margin: 13px 0 0 15px;
+}
+
+.Pricetitle3 {
+  margin: 10px 0 0 25px;
+}
+
+.Price {
+  margin: 5px 20px 0 0;
+  text-align: right;
+  font-size: 15pt;
+}
+
+.through {
+  font-size: 12pt;
+}
+
+.sale {
+  color: deeppink;
+  font-size: 10pt;
+}
+.view1 {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.button {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(240, 189, 124);
+  border: none;
+  border-radius: 15px;
+  margin-top: 70px;
+}
+.button1 {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(240, 189, 124);
+  border: none;
+  border-radius: 15px;
+}
+.button:hover,
+.button1:hover {
+  cursor: pointer;
+}
+.button:active,
+.button1:active {
+  background-color: rgb(240, 166, 70);
+  box-shadow: 3px 3px 3px black;
+  transition-duration: 0.1s;
+}
+
+#line {
+  width: 1191px;
+  margin: 50px;
+  border-top: 3px solid gray;
+  position: relative;
+  left: -660px;
+}
+
+#section2 {
+  width: 1191px;
+  height: 514px;
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.salebox {
+  width: 373px;
+  height: 250px;
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 30px 0 0 0px;
+}
+
+.salebox img {
+  margin: 25px 0 0 -5px;
+}
+
+.saletext,
+.saleprice {
+  position: relative;
+  left: 155px;
+  bottom: 150px;
+  text-align: left;
+}
+.saletext {
+  font-weight: bold;
+}
+.saleprice {
+  font-size: 15pt;
+}
+
+.salebox {
+  text-align: left;
+}
+
+.salebox a {
+  text-decoration: none;
+  color: black;
+}
+
+#banner {
+  width: 1191px;
+  height: 335px;
+  background-color: rgb(235, 212, 182);
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+#banner_mold a {
+  text-decoration: none;
+  color: black;
+}
+
+#banner_mold .banner_img1 {
+  width: 250px;
+  height: 230px;
+}
+#banner_mold .banner_img2 {
+  width: 400px;
+  height: 350px;
+}
+
+#banner_mold .banner_img1 {
+  position: absolute;
+  right: -10px;
+  bottom: -10px;
+}
+#banner_mold .banner_img2 {
+  position: absolute;
+  bottom: 0px;
+  left: 480px;
+}
+#banner_mold h1 {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+#banner_mold p {
+  display: block;
+  position: absolute;
+  top: 130px;
+  left: 50px;
+  font-size: 27pt;
+  font-weight: bold;
+}
+
+#review {
+  width: 1191px;
+  height: 894px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+#review_profile {
+  width: 1191px;
+  height: 290px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.name {
+  width: 1191px;
+  height: 30px;
+  margin-top: 70px;
+}
+.name span {
+  text-align: center;
+  margin: 0 82px 0 97px;
+  font-weight: bold;
+}
+
+.review_imgbox img {
+  width: 283px;
+  height: 180px;
+}
+
+.review_imgbox2 {
+  width: 270px;
+  height: 480px;
+  float: left;
+  margin: 0 6px 0 10px;
+  border: 3px solid gray;
+  background-color: rgb(235, 212, 182);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.review_imgbox2 {
+  text-align: center;
+}
+.review_imgbox2 span {
+  font-weight: bold;
+}
+
+.review_imgbox2 p {
+  font-size: 10pt;
+  margin-top: 10px;
+  opacity: 0.6;
+  font-weight: bold;
+}
